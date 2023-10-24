@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #0086D4;
+  --secondary-color: #FDBE14;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0086D4;
+}
+.presentation{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.yellow{
+  color: #FDBE14;
+}
+.yellow-button{
+  background-color: #FDBE14;
+  color: black;
+  border-color: transparent;
+  font-weight: 800;
+  border-radius: 15px;
+  width: 30%;
+  height: 60px;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.question {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-content: space-between;
+  border-radius: 15px 0;
+  margin: 40px 10px 10px 0;
+  padding: 20px;
+  width: 100%;
+}
+.ask {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.reponse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: baseline;
+  background-color: white;
+  border-radius: 600px ;
+  height: 600px;
+  width: 600px;
+}
+
+.blue-text {
+  color: #0086D4;
+}
