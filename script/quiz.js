@@ -8,12 +8,12 @@ function score(){
 function goToReponse() {
     let score = this.score();
     if(score > 1) {
-        window.location.href = "/TestDebutAnnee/reponseOK.html"
+        window.location.href = "../reponseOK.html"
     }else {
-        window.location.href = "/TestDebutAnnee/reponseKO.html"
+        window.location.href = "../reponseKO.html"
     }
 }
 
 function goToQuiz(){
-    window.location.href = "/TestDebutAnnee/quiz.html"
+    window.location.href = "../quiz.html"
 }
